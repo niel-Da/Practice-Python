@@ -1,7 +1,7 @@
 import time
 import datetime
 
-
+#exercise1 in practise python
 #This program is meant to predict what year a user will be 100 years old using the input provided by user
     
 #ask user for their name
