@@ -11,10 +11,10 @@ wordEntered = input('Enter a word:')
 for word in wordEntered:
     #condition
     if word[0:] == wordEntered[-1:]:
-        print('We have a Palindrome in the word - ',wordEntered)
+        print('We have a Palindrome in the word/phrase - ',wordEntered)
         
         break
     else:
-        print('Sorry. we don\'t have a palindrome in the word - ', wordEntered)
+        print('Sorry. we don\'t have a palindrome in the word/phrase - ', wordEntered)
         break
 
