@@ -11,8 +11,9 @@ while(not stop):
     
     print(player2, ' You typed '+ result2)
 
-
-    if result1 == "rock" and result2 == "scissors":
+    if result1 == result2:
+        print('It\'s a tie!\n \n'
+    elif result1 == "rock" and result2 == "scissors":
         print('player1 wins!\n \n')
     elif result1 == "scissors" and result2 == "rock":
         print('player2 wins!\n \n')
@@ -26,9 +27,9 @@ while(not stop):
         print('player1 wins!\n \n')
         
     else:
-        print('It\'s a tie!\n \n')
+        print('You have entered a wrong answer, please try again. \n \n')
 
-    print('Do you want to play again:')
+    print('Would you like to play again:')
     answer = input('Enter "yes" or "no" if you want to play again: ')
     if answer == "yes":
         print('Ok! Lets try again')
