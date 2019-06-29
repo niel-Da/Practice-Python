@@ -17,9 +17,5 @@ def list_One():
     listTwo = list(set(listOne))
     print(listTwo)
     
-#call the function
-list_One()
-
-
 
 
